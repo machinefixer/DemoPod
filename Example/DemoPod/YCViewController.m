@@ -7,6 +7,7 @@
 //
 
 #import "YCViewController.h"
+#import <DemoPod/YCDemo.h>
 
 @interface YCViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    YCDemo *demo = [[YCDemo alloc] init];
+    [demo checkout];
 }
 
 - (void)didReceiveMemoryWarning

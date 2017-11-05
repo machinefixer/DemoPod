@@ -9,4 +9,6 @@
 
 @interface YCDemo : NSObject
 
+- (void)checkout;
+
 @end
