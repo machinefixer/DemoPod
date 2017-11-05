@@ -1,0 +1,27 @@
+{
+  "name": "DemoPod",
+  "version": "0.1.0",
+  "summary": "A short description of DemoPod.",
+  "description": "Just a demo.",
+  "homepage": "https://github.com/machinefixer/DemoPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "machinefixer": "yuchen.zhan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/machinefixer/DemoPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DemoPod/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
